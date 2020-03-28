@@ -1,0 +1,18 @@
+{
+  "size": 0, 
+  "aggs": {
+    "1": {
+      "geohash_grid": {
+        "field": "geo_location",
+        "precision": 5
+      },
+      "aggs": {
+        "2": {
+          "geo_bounds": {
+            "field": "geo_location"
+          }
+        }
+      }
+    }
+  }
+}

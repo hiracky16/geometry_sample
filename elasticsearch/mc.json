@@ -1,0 +1,25 @@
+{
+  "mappings": {
+		"properties": {
+			"id": {
+				"type": "integer"
+			},
+			"name": {
+				"type": "text"
+			},
+			"address": {
+				"type": "text"
+			}, 
+			"latidude": {
+				"type": "double"
+			},
+			"longitude": {
+				"type": "double" 
+			},
+			"geo_location": {
+				"type": "geo_point"
+			}
+		}
+  }
+}
+
